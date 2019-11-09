@@ -1,0 +1,11 @@
+body{
+	background-color: #02010a;
+	font-family: DancingScript;
+	src: url("..font/DancingScript-Bold.ttf");
+}
+#cabecera{
+	background-color: #5b7989;
+}
+h1{
+	color: #fff;
+}
