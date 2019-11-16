@@ -12,6 +12,80 @@ h1{
 	text-align: right;
 	text-shadow: 2px #02010a;
 }
-table{
+section nav {
+	width:90%;
+	max-width:1200px;
+	margin:0px auto;
 	
+}
+ 
+.menu_bar {
+	display:block;
+}
+ 
+section nav ul {
+	overflow:hidden;
+	list-style:none;
+}
+ 
+section nav ul li {
+	float:left;
+}
+ 
+section nav ul li a {
+	color:#fff;
+	padding:20px;
+	display:block;
+	text-decoration:none;
+}
+ 
+section nav ul li span {
+	margin-right:10px;
+}
+ 
+section nav ul li a:hover {
+	background:#037E8C;
+}
+section {
+	padding:0px;
+}
+ 
+@media screen and (max-width:800px ) {
+	section nav {
+		width:80%;
+		height:100%;
+		left:-100%;
+		margin:0;
+		position: fixed;
+	}
+ 
+	section nav ul li {
+		display:block;
+		float:none;
+		border-bottom:1px solid rgba(255,255,255, .3);
+	}
+ 
+	.menu_bar {
+		display:block;
+		width:100%;
+		background:#ccc;
+	}
+ 
+	.menu_bar .bt-menu {
+		display:block;
+		padding:20px;
+		background:#024959;
+		color:#fff;
+		text-decoration:none;
+		font-weight: bold;
+		font-size:25px;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+	}
+ 
+	.menu_bar span {
+		float:right;
+		font-size:40px;
+	}
 }
