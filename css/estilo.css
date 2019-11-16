@@ -5,7 +5,13 @@ body{
 }
 #cabecera{
 	background-color: #5b7989;
+	border-radius: 10px 10px 0px 0px;
 }
 h1{
 	color: #fff;
+	text-align: right;
+	text-shadow: 2px #02010a;
+}
+table{
+	
 }
