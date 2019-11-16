@@ -1,16 +1,21 @@
 body{
 	background-color: #02010a;
 	font-family: DancingScript;
-	src: url("..font/DancingScript-Bold.ttf");
+	src: url(DancingScript-Bold.ttf) format('ttf');
 }
 #cabecera{
 	background-color: #5b7989;
 	border-radius: 10px 10px 0px 0px;
+	columns: 2;
+}
+#titulo{
+	width: 100%;
 }
 h1{
 	color: #fff;
 	text-align: right;
-	text-shadow: 2px #02010a;
+	text-shadow: 2px 2px #02010a;
+	padding: 5px 10px 0px 0px;
 }
 section nav {
 	width:90%;
@@ -21,6 +26,7 @@ section nav {
  
 .menu_bar {
 	display:block;
+	width: 100%;
 }
  
 section nav ul {
@@ -67,6 +73,46 @@ section {
  
 	.menu_bar {
 		display:block;
+		width:100%;
+		background:#ccc;
+	}
+ 
+	.menu_bar .bt-menu {
+		display:block;
+		padding:20px;
+		background:#024959;
+		color:#fff;
+		text-decoration:none;
+		font-weight: bold;
+		font-size:25px;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+	}
+ 
+	.menu_bar span {
+		float:right;
+		font-size:40px;
+	}
+}
+
+@media screen and (max-width:600px ) {
+	section nav {
+		width:80%;
+		height:100%;
+		left:-100%;
+		margin:0;
+		position: static;
+	}
+ 
+	section nav ul li {
+		display:block;
+		float:none;
+		border-bottom:1px solid rgba(255,255,255, .3);
+	}
+ 
+	.menu_bar {
+		display: inline-block;
 		width:100%;
 		background:#ccc;
 	}
