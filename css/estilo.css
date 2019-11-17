@@ -71,8 +71,11 @@ img {
 	max-width: 100%;
 	height:auto;
 }
-#secundario{
-
+#secundaria{
+	display: flex;
+	columns: 2;
+	background-color: #d5c75f;
+	border: 1px solid;
 }
  
 @media screen and (max-width:800px ) {
