@@ -57,19 +57,22 @@ section {
 	padding:0px;
 }
 #contenido{
-	max-width: 900px;
+	background-color: #82c3a6;
+	max-width: 1400px;
 	width: 100%;
-	margin-left: 15%;
-	margin-right: 15%;
 }
 #central{
-	 background-color: #82c3a6;
+	max-width: 900px;
      padding: 5px;
+     margin-left: 15%;
 }
 img {
 	width: 900px;
 	max-width: 100%;
 	height:auto;
+}
+#secundario{
+
 }
  
 @media screen and (max-width:800px ) {
