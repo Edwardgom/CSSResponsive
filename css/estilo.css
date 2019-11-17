@@ -1,7 +1,5 @@
 body{
 	background-color: #02010a;
-	font-family: DancingScript;
-	src: url(DancingScript-Bold.ttf) format('ttf');
 }
 #cabecera{
 	background-color: #5b7989;
@@ -13,35 +11,37 @@ body{
 }
 h1{
 	color: #fff;
-	text-align: right;
+	text-align: left;
 	text-shadow: 2px 2px #02010a;
-	padding: 5px 10px 0px 0px;
+	padding: 0px 0px 0px 10px;
+	font-family: 'Dancing Script', bold;
 }
 section nav {
 	width:90%;
-	max-width:1200px;
+	max-width:900px;
 	margin:0px auto;
 	
 }
  
 .menu_bar {
-	display:block;
+	display:contents;
 	width: 100%;
 }
  
 section nav ul {
-	overflow:hidden;
+	overflow:inherit;
 	list-style:none;
 }
  
 section nav ul li {
-	float:left;
+	float:right;
 }
  
 section nav ul li a {
 	color:#fff;
 	padding:20px;
 	display:block;
+	font-family: "Dancing Script", normal;
 	text-decoration:none;
 }
  
@@ -51,19 +51,40 @@ section nav ul li span {
  
 section nav ul li a:hover {
 	background:#037E8C;
+	font-family: "DancingScrip-Bold";
 }
 section {
 	padding:0px;
+}
+#contenido{
+	max-width: 900px;
+	width: 100%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+#central{
+	 background-color: #82c3a6;
+     padding: 5px;
+}
+img {
+	width: 900px;
+	max-width: 100%;
+	height:auto;
 }
  
 @media screen and (max-width:800px ) {
 	section nav {
 		width:80%;
 		height:100%;
-		left:-100%;
+		left: 0%;
 		margin:0;
-		position: fixed;
+		position: inherit;
 	}
+	section nav ul {
+    overflow: inherit;
+    list-style: none;
+    display: inline-flex;
+    }
  
 	section nav ul li {
 		display:block;
@@ -72,7 +93,7 @@ section {
 	}
  
 	.menu_bar {
-		display:block;
+		display:contents;
 		width:100%;
 		background:#ccc;
 	}
@@ -94,7 +115,15 @@ section {
 		float:right;
 		font-size:40px;
 	}
+	#contenido{
+		width: 90%;
+		display: contents;
+	}
+	#cabecera{
+		width: 100%;
+	}
 }
+
 
 @media screen and (max-width:600px ) {
 	section nav {
@@ -104,15 +133,20 @@ section {
 		margin:0;
 		position: static;
 	}
+	section nav ul {
+	overflow:inherit;
+	list-style:none;
+	display: flex;
+    }
  
 	section nav ul li {
-		display:block;
+		display:contents;
 		float:none;
 		border-bottom:1px solid rgba(255,255,255, .3);
 	}
  
 	.menu_bar {
-		display: inline-block;
+		display: contents;
 		width:100%;
 		background:#ccc;
 	}
@@ -133,5 +167,13 @@ section {
 	.menu_bar span {
 		float:right;
 		font-size:40px;
+	}
+	#contenido{
+		width: 90%;
+		display: contents;
+	}
+	#cabecera{
+		width: 100%;
+		columns: 1;
 	}
 }
