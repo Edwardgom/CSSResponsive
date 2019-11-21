@@ -153,14 +153,20 @@ img {
 		font-size:40px;
 	}
 	#contenido{
+		background-color: #82c3a6;
 		width: 90%;
 		display: contents;
 	}
+	#central{
+	    max-width: 900px;
+        padding: 5px;
+        margin-left: 15%;
+    }
 	#cabecera{
 		width: 100%;
 	}
 	#secundaria{
-	display: flex;
+	display: block;
 	columns: 1;
 	background-color: #d5c75f;
 	border: 1px solid;
@@ -177,6 +183,16 @@ img {
     -webkit-transform: rotate(10deg);
     -moz-transform: rotate(10deg);
     transform: rotate(10deg);
+    }
+    #retratos{
+	width: 100%;
+	padding: 20px;
+    }
+    #retratos:hover {
+    transform: translate(20px,5px);
+    -webkit-transform: translate(20px,5px); /** Chrome & Safari **/
+    -o-transform: translate(20px,5px); /** Opera **/
+    -moz-transform: translate(20px,5px); /** Firefox **/
     }
     #paisa1{
     	border: 2px;
@@ -230,17 +246,46 @@ img {
 		font-size:40px;
 	}
 	#contenido{
+		background-color: #82c3a6;
 		width: 90%;
 		display: contents;
 	}
+	#central{
+	    max-width: 900px;
+        padding: 5px;
+        margin-left: 15%;
+    }
 	#cabecera{
 		width: 100%;
 		columns: 1;
 	}
 	#secundaria{
-	display: flex;
+	display: block;
 	columns: 1;
 	background-color: #d5c75f;
 	border: 1px solid;
 	width: 100%
+   }
+   #paisajes{
+	width: 100%;
+	padding: 20px;
+    -webkit-transition: -webkit-transform 1s ease-out;
+    -moz-transition: -moz-transform 1s ease-out;
+    transition: transform 1s ease-out;
+    }
+    #paisajes:hover {
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    transform: rotate(10deg);
+    }
+    #retratos{
+	width: 100%;
+	padding: 20px;
+    }
+    #retratos:hover {
+    transform: translate(20px,5px);
+    -webkit-transform: translate(20px,5px); /** Chrome & Safari **/
+    -o-transform: translate(20px,5px); /** Opera **/
+    -moz-transform: translate(20px,5px); /** Firefox **/
+    }
 }
