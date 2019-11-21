@@ -95,15 +95,19 @@ img {
 	padding: 20px;
 }
 #retratos:hover {
-    transform: translate(20px,10px);
-    -webkit-transform: translate(20px,10px); /** Chrome & Safari **/
-    -o-transform: translate(20px,10px); /** Opera **/
-    -moz-transform: translate(20px,10px); /** Firefox **/
+    transform: translate(20px,5px);
+    -webkit-transform: translate(20px,5px); /** Chrome & Safari **/
+    -o-transform: translate(20px,5px); /** Opera **/
+    -moz-transform: translate(20px,5px); /** Firefox **/
 }
 #paisa1{
     	border: 2px;
     	box-shadow: 2px 2px 10px #82c3a6;
     }
+#retra1{
+	border: 2px;
+    	box-shadow: 2px 2px 10px #82c3a6;
+}
  
 @media screen and (max-width:800px ) {
 	section nav {
