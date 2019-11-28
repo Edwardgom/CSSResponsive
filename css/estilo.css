@@ -148,7 +148,20 @@ img {
 	width: 25%;
 	padding: 20px;
 }
-
+#redes{
+	columns: 2;
+	display: grid;
+}
+#col1r{
+	width: 25%;
+	
+}
+#col2r{
+	width: 25%;
+	margin-top: -45px;
+	margin-left: 30px;
+	
+}
  
 @media screen and (max-width:800px ) {
 	section nav {
@@ -243,6 +256,13 @@ img {
     	border: 2px;
     	box-shadow: 2px 2px 10px #82c3a6;
     }
+    #pie{
+	display: grid;
+	max-width: 1400px;
+	border-radius: 0px 0px 10px 10px;
+	background-color: #C6d5c5;
+	height: auto;
+    }
 
 }
 
@@ -332,5 +352,12 @@ img {
         -webkit-transform: translate(20px,5px); /** Chrome & Safari **/
         -o-transform: translate(20px,5px); /** Opera **/
         -moz-transform: translate(20px,5px); /** Firefox **/
+    }
+    #pie{
+	display: grid;
+	max-width: 1400px;
+	border-radius: 0px 0px 10px 10px;
+	background-color: #C6d5c5;
+	height: auto;
     }
 }
