@@ -162,6 +162,12 @@ img {
 	margin-left: 30px;
 	
 }
+#galeria{
+	display: flex;
+	columns: 3;
+	background-color: #d5c75f;
+	
+}
  
 @media screen and (max-width:800px ) {
 	section nav {
@@ -263,6 +269,12 @@ img {
 	background-color: #C6d5c5;
 	height: auto;
     }
+    #galeria{
+	    display: inline-grid;
+	    columns: 1;
+	    background-color: #d5c75f;
+	    border: 1px solid;
+    }
 
 }
 
@@ -359,5 +371,11 @@ img {
 	border-radius: 0px 0px 10px 10px;
 	background-color: #C6d5c5;
 	height: auto;
+    }
+    #galeria{
+	    display: inline-grid;
+	    columns: 1;
+	    background-color: #d5c75f;
+	    border: 1px solid;
     }
 }
