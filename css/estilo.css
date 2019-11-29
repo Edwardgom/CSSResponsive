@@ -168,6 +168,26 @@ img {
 	background-color: #d5c75f;
 	
 }
+#primera{
+	-webkit-filter: blur(10px); /* Chrome, Safari, Opera */
+	filter: blur(10px);
+}
+#segunda{
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+	filter: grayscale(100%);
+}
+#tercera{
+	-webkit-filter: sepia(90%); /* Chrome, Safari, Opera */
+	filter: sepia(90%);
+}
+#cuarta{
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+	filter: grayscale(100%);
+}
+#sexta{
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+	filter: grayscale(100%);
+}
  
 @media screen and (max-width:800px ) {
 	section nav {
@@ -263,17 +283,20 @@ img {
     	box-shadow: 2px 2px 10px #82c3a6;
     }
     #pie{
-	display: grid;
-	max-width: 1400px;
-	border-radius: 0px 0px 10px 10px;
-	background-color: #C6d5c5;
-	height: auto;
+	    display: grid;
+	    max-width: 1400px;
+	    border-radius: 0px 0px 10px 10px;
+	    background-color: #C6d5c5;
+	    height: auto;
     }
     #galeria{
 	    display: inline-grid;
 	    columns: 1;
 	    background-color: #d5c75f;
 	    border: 1px solid;
+    }
+    #primera{
+
     }
 
 }
